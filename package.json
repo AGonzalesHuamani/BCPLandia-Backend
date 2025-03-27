@@ -1,0 +1,28 @@
+{
+  "name": "bcplandia-backend",
+  "version": "1.0.0",
+  "description": "Back de BCPLandia",
+  "main": "index.js",
+  "scripts": {
+    "start":"node src/index.js",
+    "dev":"nodemon src/index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AnthuA25/BCPLandia-Backend.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/AnthuA25/BCPLandia-Backend/issues"
+  },
+  "homepage": "https://github.com/AnthuA25/BCPLandia-Backend#readme",
+  "dependencies": {
+    "express": "^4.21.2"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.9"
+  }
+}

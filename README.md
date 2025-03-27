@@ -66,8 +66,8 @@ A futuro, se planea implementar:
 
 1. **Clonar el repositorio:**  
    ```bash
-   git clone https://github.com/tu-usuario/bcplandia-backend.git
-   cd bcplandia-backend
+   git clone https://github.com/AGonzalesHuamani/BCPLandia-Backend.git
+    cd BCPLandia-Backend
    
 ---
 

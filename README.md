@@ -9,6 +9,15 @@ Bienvenido al backend de **BCP Landia**
 
 ---
 
+## 🚀 Instalación y Configuración  
+
+1. **Clonar el repositorio:**  
+   ```bash
+   git clone https://github.com/AGonzalesHuamani/BCPLandia-Backend.git
+    cd BCPLandia-Backend
+   
+---
+
 ## 🛠️ Tecnologías Utilizadas  
 
 - **Node.js** con **Express.js** (Framework para el servidor)  
@@ -62,14 +71,7 @@ A futuro, se planea implementar:
 
 
 ---
-## 🚀 Instalación y Configuración  
 
-1. **Clonar el repositorio:**  
-   ```bash
-   git clone https://github.com/AGonzalesHuamani/BCPLandia-Backend.git
-    cd BCPLandia-Backend
-   
----
 
 ## 🏗️ Arquitectura del Proyecto
 

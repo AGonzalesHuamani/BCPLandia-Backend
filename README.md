@@ -22,16 +22,17 @@ Bienvenido al backend de **BCP Landia**
 Este proyecto no utiliza una base de datos tradicional ni un ORM. En su lugar, los datos se almacenan en un archivo `db.js`, donde se manejan como un objeto JavaScript estático.
 
 ### 📂 Estructura de los datos
+```javascript
+const data = {
+  users: [
+    { id: 1, name: "Diana", age: 25 },
+    { id: 2, name: "Jackeline", age: 30 },
+  ],
+};
 
->const data = {
->  users: [
->    { id: 1, name: "Diana", age: 25 },
->    { id: 2, name: "Jackeline", age: 30 },
->  ],
->};
->
->module.exports = data; 
+module.exports = data;
 
+---
 
 ✅ ¿Por qué este enfoque?
 Sencillez y facilidad de uso para proyectos pequeños o pruebas.

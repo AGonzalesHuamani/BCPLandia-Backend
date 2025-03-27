@@ -8,14 +8,29 @@ Bienvenido al backend de **BCP Landia**
 - API desarrollada con **JavaScript y Express.js**.
 
 ---
+## Requisitos
 
-## 🚀 Instalación y Configuración  
+Asegúrate de tener instaladas las siguientes herramientas:
 
-1. **Clonar el repositorio:**  
-   ```bash
-   git clone https://github.com/AGonzalesHuamani/BCPLandia-Backend.git
-    cd BCPLandia-Backend
-   
+- [Node.js](https://nodejs.org/)
+- [npm](https://www.npmjs.com/) o [yarn](https://yarnpkg.com/)
+
+## Instalación
+
+Clona el repositorio y ejecuta los siguientes comandos:
+
+```bash
+git clone <URL-del-repositorio>
+cd <nombre-del-proyecto>
+npm install
+```
+
+Si usas yarn:
+
+```bash
+yarn install
+```
+
 ---
 
 ## 🛠️ Tecnologías Utilizadas  

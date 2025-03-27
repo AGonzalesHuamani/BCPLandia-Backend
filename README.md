@@ -35,21 +35,21 @@ module.exports = data;
 
 ---
 
-✅ ¿Por qué este enfoque?
+## ✅ ¿Por qué este enfoque?
 Sencillez y facilidad de uso para proyectos pequeños o pruebas.
 
 No requiere configuración de bases de datos externas.
 
 Facilita la modificación rápida de datos sin dependencias adicionales.
 
-⚠️ Limitaciones
+## ⚠️ Limitaciones
 Los datos no son persistentes; se reinician al reiniciar el servidor.
 
 No es escalable para grandes aplicaciones.
 
 No permite operaciones avanzadas como autenticación o relaciones complejas entre datos.
 
-🚀 Futuras mejoras
+## 🚀 Futuras mejoras
 A futuro, se planea implementar:
 
 ✅ Una base de datos real (PostgreSQL, MongoDB, MySQL, etc.).
@@ -71,25 +71,15 @@ A futuro, se planea implementar:
    
 ---
 
-🏗️ Arquitectura del Proyecto
-📂 bcplandia-backend
-┣ 📂 src
-┃ ┣ 📂 controller → Controladores de lógica de negocio
-┃ ┃ ┣ 📄 gemini.chat.controller.js
-┃ ┃ ┣ 📄 miniStory.controller.js
-┃ ┃ ┗ 📄 user.controller.js
-┃ ┣ 📂 data → Archivos con información de historias y preguntas
-┃ ┃ ┗ 📄 db.js
-┃ ┣ 📂 routes → Definición de rutas de la API
-┃ ┃ ┣ 📄 gemini.chat.route.js
-┃ ┃ ┣ 📄 miniStory.route.js
-┃ ┃ ┣ 📄 user.route.js
-┃ ┃ ┗ 📄 index.js
-┃ ┣ 📂 service → Servicios externos como IA de Gemini
-┃ ┃ ┗ 📄 gemini-chat.js
-┃ ┗ 📄 index.js → Archivo principal del servidor
-┣ 📄 .env → Variables de entorno
-┣ 📄 .gitignore
-┣ 📄 package.json → Dependencias y scripts
-┣ 📄 package-lock.json
-┗ 📄 README.md → Este documento
+## 🏗️ Arquitectura del Proyecto
+
+📂 **bcplandia-backend**  
+├── 📂 **src**  
+│   ├── 📂 **controller** → Controladores de lógica de negocio  
+│   ├── 📂 **data** → Archivos con información de historias y preguntas  
+│   ├── 📂 **routes** → Definición de rutas de la API  
+│   ├── 📂 **service** → Servicios externos como IA de Gemini  
+│   ├── 📄 **index.js** → Archivo principal del servidor  
+├── 📄 **.env** → Variables de entorno  
+├── 📄 **package.json** → Dependencias y scripts  
+└── 📄 **README.md** → Este documento  

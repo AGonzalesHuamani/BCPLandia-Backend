@@ -16,7 +16,6 @@ Bienvenido al backend de **BCP Landia**
 - **dotenv** (Para manejar variables de entorno)  
 
 ---
-## 🛠️ Manejo de Datos  
 
 ## 🛠️ Manejo de datos
 

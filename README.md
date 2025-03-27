@@ -93,7 +93,9 @@ const data = {
   ],
 };
 
-module.exports = data;
+module.exports = data;```
+
+
 ✅ ¿Por qué este enfoque?
 Sencillez y facilidad de uso para proyectos pequeños o pruebas.
 

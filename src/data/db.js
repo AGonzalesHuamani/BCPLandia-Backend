@@ -19,18 +19,22 @@ const data = {
         {
           answer: "Efectivo",
           explanation: "Riesgo de perdida pero control de gasto.",
+          coins:1
         },
         {
           answer: "Tarjeta de crédito",
           explanation: "Pago seguro, pero necesitas saldo en cuenta.",
+          coins:1
         },
         {
           answer: "Tarjeta de débito",
           explanation: "Opción válida si pagas a fin de mes sin intereses.",
+          coins:1
         },
         {
           answer: "Yape",
           explanation: "Puedes usar Yape, es rápido y seguro.",
+          coins:1
         },
       ],
     },
